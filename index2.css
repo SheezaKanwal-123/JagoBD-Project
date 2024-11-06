@@ -78,6 +78,7 @@ border-radius: 50%;
 }
 #cafe-iceb h1{
     font-size: 40px;
+    padding-left: 20px;
 }
 
 #cafe-ice1 img{
@@ -92,21 +93,22 @@ border-radius: 50%;
 } 
 #cafe-ice3 img{
     height: 420px;
-    width: 115px; 
+    width: 120px; 
     position: relative;
-    bottom: 440px;
-    left: 400px;
+    bottom: 425px;
+    left: 400px; 
     
 } 
 .loading-Dots{
     display: flex;
     gap: 25px;
     position: relative;
-    top: 470px;
-  justify-content:left;  
-   /* align-items:;   */
-   height: 100vh; 
-   right: 340px;
+    bottom: 390px;
+    left: 15px;
+    justify-content:left;  
+    /* align-items:;   */
+    height: 100vh; 
+    right: 340px;
 }
 .dot{
     width: 13px;
