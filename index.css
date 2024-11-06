@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+  overflow-x: hidden;
+}
+#tp-cnter{
+  height: 100%;
+  width: 100%;
+}
+
+
+.container{
+background-color:white;
+
+display:flex ;
+justify-content: space-between;
+height: 100px;
+width: 100%;
+
+}
+.logo{
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+span{
+    position: relative;
+    left: 20px;
+}
+
+.img1{
+    height: 60px;
+    width: 50px;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+a{
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+    right: 100px;
+    font-size: 20px;
+    position: relative;
+}
+li{
+    list-style-type: none;
+    display: inline;
+    padding: 20px;
+    position: relative;
+    top: 35px;
+   left: 380px;
+   
+    
+}
+.list{
+    position: relative;
+    right: 140px;
+    padding-right: 320px;
+}
+
+    .icons {
+        display: flex;
+
+        gap: 20px;
+        
+    }
+     
+   .icons i {
+        color: rgb(10, 10, 10);
+        font-size: 1.2rem;
+       
+       position: relative; 
+        top: 42px;
+       right: 60px;
+      } 
+      main {
+        width: 1340px;
+        height: 656px;
+        background-image: url(img2.png);
+      }
+      .content{
+        height: 323px;
+        width: 450px;
+        background-color: #FFF3E3;
+        position: relative;
+        top: 120px;
+        left: 700px;
+        padding: 40px;
+        border-radius: 15px;
+      }
+      .content h1{
+        padding-top: 15px;
+        text-align: left;
+      padding-left: 20px;
+       
+        
+      }
+      .content p{
+        padding: 5px;
+        text-align: left;
+      }
+     
+      button{
+        margin-left: 30px;
+       width: 170px;
+       height: 60px;
+       color: white;
+       background-color: #B88E2F;
+       font-size: large;
+       border: #B88E2F;
+      
+      }
+      .fex-img{
+        display: flex;
+        flex-direction: row;
+        padding-left: 160px;
+      }
+      .fex-img img{
+        height: 450px;
+        width: 330px;
+        margin: 6px;
+        padding-top: 30px;
+      }
+      .fex-img h4{
+        text-align: center;
+        padding-top: 10px;
+      }
+      .fex-content{
+        text-align: center;
+        padding-top: 20px;
+      }
+
+
+      
