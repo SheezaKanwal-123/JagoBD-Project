@@ -1,0 +1,111 @@
+
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    position: relative; 
+    
+}
+.boxes{
+    height: 280px;
+    border-radius: 5px;
+    margin-right: 10px;
+    position: relative;
+    margin-top: 20px;
+    background-color: rgb(238, 237, 237);
+    
+} 
+.boxes h2{
+    position: relative;
+    top: 20px;
+
+}
+.boxes h2,h3{
+    position: relative;
+    left: 40px;
+    margin: -10px;
+        
+}  
+.container .boxes{
+    height: 470px;
+}
+img{
+    width: 315px;
+}
+.RP{
+    position: relative;
+    left:190px ;
+    bottom: 34px;
+    color: #8b8989;
+   text-decoration-line: line-through;
+}
+.button1{
+    color: #b3a107;
+    border: 1px solid #b3a107;
+    height: 60px;
+    width: 250px;
+    text-align: center;
+    position: relative;
+    left: 530px;
+    background-color: white;
+    margin-top: 20px;
+    font-size: large;
+}
+.boxes .tage{
+    position: absolute;
+    bottom: 390px;
+    left: 240px;
+    text-align: center;
+    padding: 12px;
+    border: 2px ;
+    height: 25px;
+    width: 25px;
+ 
+    border-radius:50% ;
+
+}
+
+.overlay {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(12, 12, 12, 0.5);
+opacity: 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+transition: opacity 0.3s ease;
+color: white;
+}
+.overlay button {
+color: #c7ba08;
+height: 50px;
+width: 150px;
+background-color: rgb(250, 251, 252);
+margin-bottom: 10px; 
+flex-direction: column;
+}
+.overlay .icon-container {
+display: flex;
+
+justify-content: center; 
+gap: 15px;
+margin-top: 20px; 
+}
+.overlay i {
+font-size: 20px;
+cursor: pointer;
+}
+.boxes:hover .overlay {
+opacity: 1;
+}
+#page2{
+    padding: 20px;
+}
+
