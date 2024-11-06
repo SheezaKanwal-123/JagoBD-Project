@@ -1,0 +1,116 @@
+#Main-container{
+    background-color:  #faf0e5;
+    display: flex;
+    height:530px;
+    width: 100%;
+    margin-top: 40px;
+    padding-left: 30px; 
+    padding-top: 40px;
+    padding-bottom: 30px;
+    position: relative;
+    top: 950px;
+
+  
+}
+
+
+ .cafe-icn{
+    padding-top:150px ;
+
+}
+
+.pic-cntnt{
+    bottom: 139px;
+    width: 160px;
+    height: 100px;
+    position: relative;
+   left: 20px;
+   padding: 5px;
+   background-color: rgba(253, 250, 250, 0.5);
+   opacity: 1;
+   
+}
+
+
+.menu-item {
+    position: relative;
+    padding-right: 20px;
+    background-color: #B88E2F;
+    width: 10px;
+bottom: 183px;
+
+left: 190px;
+padding: 13px;
+color: white;
+}
+.menu-item1 {
+    position: relative;
+    padding-right: 20px;
+    background-color:white;
+    width: 10px;
+    height: 10px;
+ bottom: 150px;
+color:#af821a;
+left: 360px;
+padding: 13px;
+border: 2px;
+border-radius: 50%;
+
+} 
+.pic-cntnt p{
+    top: 880px;
+    margin-bottom: -20px;
+    
+ }
+.button2{
+    height: 60px;
+    width: 180px;
+    background-color: #B88E2F;
+    color: white;
+    border: #B88E2F;
+    margin-left: 40px;
+}
+#Main-container #cafe-ice div{
+    width: 430px;
+}
+#cafe-iceb{
+    padding-right: 20px;
+}
+#cafe-iceb h1{
+    font-size: 40px;
+}
+
+#cafe-ice1 img{
+    width: 380px;
+    height: 520px;
+    padding-right: 20px;
+    
+} 
+#cafe-ice2 img{
+    width: 380px;
+    height: 420px;
+} 
+#cafe-ice3 img{
+    height: 420px;
+    width: 115px; 
+    position: relative;
+    bottom: 440px;
+    left: 400px;
+    
+} 
+.loading-Dots{
+    display: flex;
+    gap: 25px;
+    position: relative;
+    top: 470px;
+  justify-content:left;  
+   /* align-items:;   */
+   height: 100vh; 
+   right: 340px;
+}
+.dot{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: #d8d7d7;
+}

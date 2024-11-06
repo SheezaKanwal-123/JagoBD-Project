@@ -1,0 +1,103 @@
+.tcp-cntnt p,h1{
+    text-align: center;
+    margin: 4px;
+    
+} 
+.tcp-cntnt{
+    height: 100%;
+    width: 1340px;
+   position: relative;
+   top: 980px;
+   text-align: center;
+}
+ .tcp-cntnt1 {
+    display: flex;
+    gap: 5px;
+    flex-flow: row wrap;
+    
+   
+   
+}
+.cntnt1 img{
+ height: 380px;
+ width: 100px;   
+} 
+.cntnt2 img{
+    padding-top: 99px;
+    width: 440px;
+    height: 280px;
+    
+    
+}
+
+.cntnt3{
+    padding-top: 200px;
+    top: 200px;
+    width: 110px;
+    left: 130px;
+}
+.cntnt4{
+
+   padding-top: 130px;
+   padding-left: 207px;
+}
+.cntnt5{
+    width: 200px;
+}
+.cntnt6{
+   margin-top: -245px;
+}
+ .cntnt7{
+  margin-top: -245px;
+} 
+ .cntnt8{
+  padding-left: 320px;
+  margin-top: -180px;
+}
+.cntnt9{
+    margin-top: -180px;
+}
+.main-content{
+    display: flex;
+ 
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+#line{
+    margin-top: 1000px;
+    color: #dfd7d7;
+}
+.main-content div{
+    padding: 40px;
+}
+.Furino1 h2,p{
+margin: 30px;
+}
+.Furino1 h2{
+    font-size: 40px;
+}
+
+.Furino2 h4{
+    margin:50px; 
+    position: relative;
+    
+}
+.Furino3 h4{
+    margin: 50px; 
+    position: relative;
+   
+}
+.Furino4 h4{
+    margin: 50px; 
+    position: relative;
+}
+.Furino4 h5{
+    text-decoration: underline;
+   text-underline-offset: 6px;
+   text-decoration-color: black;
+}
+
+
+
+
+
